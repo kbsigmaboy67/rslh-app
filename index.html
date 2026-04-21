@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RSLH BLACKBOX</title>
+</head>
+<body>
+  <h2>RSLH BLACKBOX STREAM ENGINE</h2>
+
+  <input type="file" id="files" multiple webkitdirectory />
+  <br><br>
+
+  <input type="password" id="password" placeholder="Password" />
+  <br><br>
+
+  <button onclick="encrypt()">Encrypt</button>
+  <button onclick="decrypt()">Decrypt</button>
+
+  <pre id="log"></pre>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
